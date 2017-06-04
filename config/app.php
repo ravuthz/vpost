@@ -169,6 +169,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Watson\BootstrapForm\BootstrapFormServiceProvider::class,
+        Zizaco\Entrust\EntrustServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -231,6 +232,7 @@ return [
         'Form'     => Collective\Html\FormFacade::class,
         'HTML'     => Collective\Html\HtmlFacade::class,
         'BootForm' => Watson\BootstrapForm\Facades\BootstrapForm::class,
+        'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
 
     ],
 
